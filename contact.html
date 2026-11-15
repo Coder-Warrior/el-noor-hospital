@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا | Contact - مستشفى النور</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <div class="bg-animation">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20" stroke-linecap="round"/></svg></div>
+        <div class="logo-text"><span class="logo-ar">مستشفى النور</span><span class="logo-en">Al-Noor Hospital</span></div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="about.html" class="nav-link" data-ar="من نحن" data-en="About">من نحن</a></li>
+        <li><a href="services.html" class="nav-link" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+        <li><a href="doctors.html" class="nav-link" data-ar="الأطباء" data-en="Doctors">الأطباء</a></li>
+        <li><a href="contact.html" class="nav-link active" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle"><span class="lang-current">EN</span></button>
+        <a href="contact.html" class="btn btn-primary btn-appointment" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+        <button class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title"><span data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</span></h1>
+      <p class="page-subtitle" data-ar="نحن هنا لخدمتك على مدار الساعة - احجز موعدك أو تواصل معنا" data-en="We are here to serve you 24/7 - book your appointment or contact us">نحن هنا لخدمتك على مدار الساعة - احجز موعدك أو تواصل معنا</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h2 class="section-title" data-ar="معلومات التواصل" data-en="Contact Information">معلومات التواصل</h2>
+          <div class="contact-item">
+            <div class="contact-icon gradient-1">📍</div>
+            <div>
+              <h4 data-ar="العنوان" data-en="Address">العنوان</h4>
+              <p data-ar="شارع النيل، المعادي، القاهرة، مصر" data-en="Nile Street, Maadi, Cairo, Egypt">شارع النيل، المعادي، القاهرة، مصر</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon gradient-2">📞</div>
+            <div>
+              <h4 data-ar="الهاتف" data-en="Phone">الهاتف</h4>
+              <p>+20 100 000 0000<br>+20 2 2345 6789</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon gradient-3">✉️</div>
+            <div>
+              <h4 data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</h4>
+              <p>info@alnoor-hospital.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon gradient-4">🕐</div>
+            <div>
+              <h4 data-ar="ساعات العمل" data-en="Working Hours">ساعات العمل</h4>
+              <p data-ar="الطوارئ: 24/7 | العيادات: 9 ص - 9 م" data-en="Emergency: 24/7 | Clinics: 9 AM - 9 PM">الطوارئ: 24/7 | العيادات: 9 ص - 9 م</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper reveal">
+          <h2 class="section-title" data-ar="احجز موعدك" data-en="Book Your Appointment">احجز موعدك</h2>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label data-ar="الاسم الكامل" data-en="Full Name">الاسم الكامل</label>
+              <input type="text" required data-ar-placeholder="أدخل اسمك" data-en-placeholder="Enter your name" placeholder="أدخل اسمك">
+            </div>
+            <div class="form-group">
+              <label data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</label>
+              <input type="email" required data-ar-placeholder="أدخل بريدك الإلكتروني" data-en-placeholder="Enter your email" placeholder="أدخل بريدك الإلكتروني">
+            </div>
+            <div class="form-group">
+              <label data-ar="رقم الهاتف" data-en="Phone Number">رقم الهاتف</label>
+              <input type="tel" required data-ar-placeholder="أدخل رقم هاتفك" data-en-placeholder="Enter your phone" placeholder="أدخل رقم هاتفك">
+            </div>
+            <div class="form-group">
+              <label data-ar="القسم الطبي" data-en="Medical Department">القسم الطبي</label>
+              <select required>
+                <option value="" data-ar="اختر القسم" data-en="Choose department">اختر القسم</option>
+                <option data-ar="أمراض القلب" data-en="Cardiology">أمراض القلب</option>
+                <option data-ar="جراحة الأعصاب" data-en="Neurosurgery">جراحة الأعصاب</option>
+                <option data-ar="العظام والمفاصل" data-en="Orthopedics">العظام والمفاصل</option>
+                <option data-ar="طب الأطفال" data-en="Pediatrics">طب الأطفال</option>
+                <option data-ar="النساء والتوليد" data-en="Obstetrics & Gynecology">النساء والتوليد</option>
+                <option data-ar="الباطنة" data-en="Internal Medicine">الباطنة</option>
+                <option data-ar="طب العيون" data-en="Ophthalmology">طب العيون</option>
+                <option data-ar="طب الأسنان" data-en="Dentistry">طب الأسنان</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label data-ar="التاريخ المفضل" data-en="Preferred Date">التاريخ المفضل</label>
+              <input type="date" required>
+            </div>
+            <div class="form-group">
+              <label data-ar="ملاحظات إضافية" data-en="Additional Notes">ملاحظات إضافية</label>
+              <textarea rows="4" data-ar-placeholder="أخبرنا عن حالتك..." data-en-placeholder="Tell us about your condition..." placeholder="أخبرنا عن حالتك..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full btn-lg" data-ar="إرسال الطلب" data-en="Submit Request">إرسال الطلب</button>
+            <div class="form-success" id="formSuccess">
+              <span>✅</span>
+              <p data-ar="تم إرسال طلبك بنجاح! سنتواصل معك قريباً." data-en="Your request was sent successfully! We will contact you soon.">تم إرسال طلبك بنجاح! سنتواصل معك قريباً.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">
+            <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20" stroke-linecap="round"/></svg></div>
+            <div class="logo-text"><span class="logo-ar">مستشفى النور</span><span class="logo-en">Al-Noor Hospital</span></div>
+          </div>
+          <p data-ar="نقدم رعاية صحية عالمية المستوى منذ 1995، ملتزمون بصحتك وسلامتك." data-en="Providing world-class healthcare since 1995, committed to your health and safety.">نقدم رعاية صحية عالمية المستوى منذ 1995، ملتزمون بصحتك وسلامتك.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+            <li><a href="about.html" data-ar="من نحن" data-en="About">من نحن</a></li>
+            <li><a href="services.html" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+            <li><a href="doctors.html" data-ar="الأطباء" data-en="Doctors">الأطباء</a></li>
+            <li><a href="contact.html" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</h4>
+          <ul class="contact-list">
+            <li>📞 +20 100 000 0000</li>
+            <li>✉️ info@alnoor-hospital.com</li>
+            <li>📍 <span data-ar="القاهرة، مصر" data-en="Cairo, Egypt">القاهرة، مصر</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-ar="تابعنا" data-en="Follow Us">تابعنا</h4>
+          <div class="social-links"><a href="#">f</a><a href="#">t</a><a href="#">i</a><a href="#">in</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 <span data-ar="مستشفى النور التخصصي" data-en="Al-Noor Specialized Hospital">مستشفى النور التخصصي</span>. <span data-ar="جميع الحقوق محفوظة" data-en="All Rights Reserved">جميع الحقوق محفوظة</span>.</p>
+        <p data-ar="تصميم وتطوير: علي فتحي" data-en="Designed & Developed by: Ali Fathi">تصميم وتطوير: علي فتحي</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

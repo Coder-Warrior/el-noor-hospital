@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الأطباء | Doctors - مستشفى النور</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <div class="bg-animation">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20" stroke-linecap="round"/></svg></div>
+        <div class="logo-text"><span class="logo-ar">مستشفى النور</span><span class="logo-en">Al-Noor Hospital</span></div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="about.html" class="nav-link" data-ar="من نحن" data-en="About">من نحن</a></li>
+        <li><a href="services.html" class="nav-link" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+        <li><a href="doctors.html" class="nav-link active" data-ar="الأطباء" data-en="Doctors">الأطباء</a></li>
+        <li><a href="contact.html" class="nav-link" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle"><span class="lang-current">EN</span></button>
+        <a href="contact.html" class="btn btn-primary btn-appointment" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+        <button class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title"><span data-ar="فريقنا الطبي" data-en="Our Medical Team">فريقنا الطبي</span></h1>
+      <p class="page-subtitle" data-ar="نخبة من أمهر الأطباء والاستشاريين في جميع التخصصات" data-en="Elite surgeons and consultants in all specialties">نخبة من أمهر الأطباء والاستشاريين في جميع التخصصات</p>
+    </div>
+  </section>
+
+  <section class="doctors-section">
+    <div class="container">
+      <div class="doctors-grid">
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-1">
+            <span class="doctor-avatar">👨‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. أحمد محمود" data-en="Dr. Ahmed Mahmoud">د. أحمد محمود</h3>
+            <p class="doctor-specialty" data-ar="استشاري أمراض القلب" data-en="Cardiology Consultant">استشاري أمراض القلب</p>
+            <p class="doctor-exp" data-ar="خبرة 20 عاماً" data-en="20 years experience">خبرة 20 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-2">
+            <span class="doctor-avatar">👩‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. سارة عبد الله" data-en="Dr. Sara Abdullah">د. سارة عبد الله</h3>
+            <p class="doctor-specialty" data-ar="استشارية جراحة الأعصاب" data-en="Neurosurgery Consultant">استشارية جراحة الأعصاب</p>
+            <p class="doctor-exp" data-ar="خبرة 15 عاماً" data-en="15 years experience">خبرة 15 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-3">
+            <span class="doctor-avatar">👨‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. محمد علي" data-en="Dr. Mohamed Ali">د. محمد علي</h3>
+            <p class="doctor-specialty" data-ar="استشاري العظام والمفاصل" data-en="Orthopedics Consultant">استشاري العظام والمفاصل</p>
+            <p class="doctor-exp" data-ar="خبرة 18 عاماً" data-en="18 years experience">خبرة 18 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-4">
+            <span class="doctor-avatar">👩‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. ليلى حسن" data-en="Dr. Layla Hassan">د. ليلى حسن</h3>
+            <p class="doctor-specialty" data-ar="استشارية طب الأطفال" data-en="Pediatrics Consultant">استشارية طب الأطفال</p>
+            <p class="doctor-exp" data-ar="خبرة 12 عاماً" data-en="12 years experience">خبرة 12 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-5">
+            <span class="doctor-avatar">👩‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. نورة إبراهيم" data-en="Dr. Noura Ibrahim">د. نورة إبراهيم</h3>
+            <p class="doctor-specialty" data-ar="استشارية النساء والتوليد" data-en="Obstetrics & Gynecology Consultant">استشارية النساء والتوليد</p>
+            <p class="doctor-exp" data-ar="خبرة 17 عاماً" data-en="17 years experience">خبرة 17 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-6">
+            <span class="doctor-avatar">👨‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. خالد السيد" data-en="Dr. Khaled El-Sayed">د. خالد السيد</h3>
+            <p class="doctor-specialty" data-ar="استشاري الباطنة العامة" data-en="Internal Medicine Consultant">استشاري الباطنة العامة</p>
+            <p class="doctor-exp" data-ar="خبرة 22 عاماً" data-en="22 years experience">خبرة 22 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-1">
+            <span class="doctor-avatar">👨‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. عمر فؤاد" data-en="Dr. Omar Fouad">د. عمر فؤاد</h3>
+            <p class="doctor-specialty" data-ar="استشاري طب العيون" data-en="Ophthalmology Consultant">استشاري طب العيون</p>
+            <p class="doctor-exp" data-ar="خبرة 14 عاماً" data-en="14 years experience">خبرة 14 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+        <div class="doctor-card reveal">
+          <div class="doctor-image gradient-bg-2">
+            <span class="doctor-avatar">👩‍⚕️</span>
+          </div>
+          <div class="doctor-info">
+            <h3 data-ar="د. هدى يوسف" data-en="Dr. Hoda Youssef">د. هدى يوسف</h3>
+            <p class="doctor-specialty" data-ar="استشارية طب الأسنان" data-en="Dentistry Consultant">استشارية طب الأسنان</p>
+            <p class="doctor-exp" data-ar="خبرة 11 عاماً" data-en="11 years experience">خبرة 11 عاماً</p>
+            <a href="contact.html" class="btn btn-primary btn-sm" data-ar="احجز موعد" data-en="Book Appointment">احجز موعد</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">
+            <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20" stroke-linecap="round"/></svg></div>
+            <div class="logo-text"><span class="logo-ar">مستشفى النور</span><span class="logo-en">Al-Noor Hospital</span></div>
+          </div>
+          <p data-ar="نقدم رعاية صحية عالمية المستوى منذ 1995، ملتزمون بصحتك وسلامتك." data-en="Providing world-class healthcare since 1995, committed to your health and safety.">نقدم رعاية صحية عالمية المستوى منذ 1995، ملتزمون بصحتك وسلامتك.</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+          <ul>
+            <li><a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+            <li><a href="about.html" data-ar="من نحن" data-en="About">من نحن</a></li>
+            <li><a href="services.html" data-ar="الخدمات" data-en="Services">الخدمات</a></li>
+            <li><a href="doctors.html" data-ar="الأطباء" data-en="Doctors">الأطباء</a></li>
+            <li><a href="contact.html" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-ar="اتصل بنا" data-en="Contact Us">اتصل بنا</h4>
+          <ul class="contact-list">
+            <li>📞 +20 100 000 0000</li>
+            <li>✉️ info@alnoor-hospital.com</li>
+            <li>📍 <span data-ar="القاهرة، مصر" data-en="Cairo, Egypt">القاهرة، مصر</span></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-ar="تابعنا" data-en="Follow Us">تابعنا</h4>
+          <div class="social-links"><a href="#">f</a><a href="#">t</a><a href="#">i</a><a href="#">in</a></div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 <span data-ar="مستشفى النور التخصصي" data-en="Al-Noor Specialized Hospital">مستشفى النور التخصصي</span>. <span data-ar="جميع الحقوق محفوظة" data-en="All Rights Reserved">جميع الحقوق محفوظة</span>.</p>
+        <p data-ar="تصميم وتطوير: علي فتحي" data-en="Designed & Developed by: Ali Fathi">تصميم وتطوير: علي فتحي</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
